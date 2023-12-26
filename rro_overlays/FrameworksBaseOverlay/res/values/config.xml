@@ -295,6 +295,12 @@
     <!-- The name of the package that will hold the dialer role by default. -->
     <!-- <string name="config_defaultDialer" translatable="false">org.codeaurora.dialer</string> -->
 
+    <!-- The list of components which should be automatically disabled for a specific device. -->
+    <string-array name="config_deviceDisabledComponents" translatable="false">
+        <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
+        <item>com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver</item>
+    </string-array>
+
    <!-- The duration (in milliseconds) for the outgoing sms authorization request to timeout.-->
    <integer name="config_sms_authorization_timeout_ms">15000</integer>
    <!-- Enable SMS authorization support -->
