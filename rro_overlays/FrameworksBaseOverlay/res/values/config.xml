@@ -299,6 +299,7 @@
     <string-array name="config_deviceDisabledComponents" translatable="false">
         <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
         <item>com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver</item>
+        <item>com.google.android.gms/.nearby.mediums.nearfieldcommunication.NfcAdvertisingService</item>
     </string-array>
 
         <!-- The default journal mode to use use when Write-Ahead Logging is not active.
